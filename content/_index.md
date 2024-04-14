@@ -65,7 +65,7 @@ sections:
         - title: Postdoctoral Scholar
           company: University of Chicago
           company_url: ''
-          company_logo: org-gc
+          company_logo: uChicago
           location: Chicago, IL
           date_start: '2023-09-01'
           date_end: ''
@@ -73,7 +73,7 @@ sections:
         - title: Course Instructor
           company: University of Waterloo
           company_url: ''
-          company_logo: org-x
+          company_logo: uWaterloo
           location: Waterloo, ON
           date_start: '2022-01-01'
           date_end: '2022-12-31'
@@ -81,7 +81,7 @@ sections:
         - title: Database Coordinator
           company: Waterloo Research in Aging Participants
           company_url: ''
-          company_logo: org-x
+          company_logo: WRAP_Logo
           location: Waterloo, ON
           date_start: '2017-09-01'
           date_end: '2023-12-31'
@@ -222,7 +222,7 @@ sections:
   - block: collection
     id: talks
     content:
-      title: Recent & Upcoming Talks
+      title: Recent Talks
       filters:
         folders:
           - event
