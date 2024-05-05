@@ -120,6 +120,5 @@ social:
 highlight_name: true
 ---
 
-Hi there! I'm Brady. I take a cognitive neuroscience approach to understand how memory operates, and how we can use that information to enhance remembering in everyday life. 
-My main line of work is at the cross-section of memory and semiotics, studying how we remember simple line drawings and everyday symbols.
+My work explores how the visual design of symbols (e.g., !@#$%$) and logos influences what we remember, and the practical applications of those insights in the realm of advertising. Through research experiments and exploration of big data, I hope to reveal data-driven design principles that let us engineer more effective symbols and logos.
 {style="text-align: justify;"}

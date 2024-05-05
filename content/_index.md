@@ -51,6 +51,7 @@ sections:
     # design:
     #   columns: '1'
   - block: experience
+    id: experience
     content:
       title: Experience
       # Date format for experience
@@ -69,7 +70,13 @@ sections:
           location: Chicago, IL
           date_start: '2023-09-01'
           date_end: ''
-          description: Exploring what makes symbols and logos highly memorable.
+          description: |2-
+              Responsibilities include:
+
+              * Analysing
+              * Modelling
+              * Deploying
+              * Exploring what makes symbols and logos highly memorable.
         - title: Course Instructor
           company: University of Waterloo
           company_url: ''
@@ -77,7 +84,13 @@ sections:
           location: Waterloo, ON
           date_start: '2022-01-01'
           date_end: '2022-12-31'
-          description: Taught Brain Physiology, as well as Research Methods in Memory.
+          description: |2-
+              Responsibilities include:
+
+              * Analysing
+              * Modelling
+              * Deploying
+              * Taught Brain Physiology, as well as Research Methods in Memory.
         - title: Database Coordinator
           company: Waterloo Research in Aging Participants
           company_url: ''
@@ -85,7 +98,13 @@ sections:
           location: Waterloo, ON
           date_start: '2017-09-01'
           date_end: '2023-12-31'
-          description: Managed a database of 400+ older adult participants.
+          description: |2-
+              Responsibilities include:
+
+              * Analysing
+              * Modelling
+              * Deploying
+              * Managed a database of 400+ older adult participants.
     design:
       columns: '2'
   # - block: accomplishments
@@ -206,6 +225,7 @@ sections:
   #     columns: '2'
   #     view: card
   - block: collection
+    id: publications
     content:
       title: Recent Publications
       text: |-
