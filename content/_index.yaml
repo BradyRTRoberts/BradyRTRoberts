@@ -1,10 +1,7 @@
 
   - block: markdown
-    id: hobbies
     content:
-      title: Hobbies
       text: |-
-        <div class="hobbies-gallery">
           <div class="hobby-item">
             <img src="/images/hobby1.jpg" alt="Hobby 1">
             <p>Description for hobby 1</p>
@@ -19,11 +16,8 @@
       columns: '2'
 
   - block: markdown
-    id: hobbies
     content:
-      title: Hobbies
       text: |-
-        <div class="hobbies-gallery">
           <div class="hobby-item">
             <img src="/images/hobby1.jpg" alt="Hobby 1">
             <p>Description for hobby 1</p>

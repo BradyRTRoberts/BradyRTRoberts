@@ -97,6 +97,27 @@ sections:
     design:
       view: compact
       columns: '2'
+
+
+  - block: markdown
+    id: hobbies
+    content:
+      title: Hobbies
+      text: |-
+        <div class="hobbies-gallery">
+          <div class="hobby-item">
+            <img src="/images/hobby1.jpg" alt="Hobby 1">
+            <p>Description for hobby 1</p>
+          </div>
+          <div class="hobby-item">
+            <img src="/images/hobby2.jpg" alt="Hobby 2">
+            <p>Description for hobby 2</p>
+          </div>
+          <!-- Add more hobby items as needed -->
+        </div>
+    design:
+      columns: '2'
+
   # - block: accomplishments
   #   content:
   #     # Note: `&shy;` is used to add a 'soft' hyphen in a long heading.
@@ -280,3 +301,17 @@ sections:
   #   design:
   #     columns: '2'
 ---
+
+## Hobbies
+
+<div class="hobbies-gallery">
+  <div class="hobby-item">
+    <img src="/images/hobby1.jpg" alt="Hobby 1">
+    <p>Description for hobby 1</p>
+  </div>
+  <div class="hobby-item">
+    <img src="/images/hobby2.jpg" alt="Hobby 2">
+    <p>Description for hobby 2</p>
+  </div>
+  <!-- Add more hobby items as needed -->
+</div>
