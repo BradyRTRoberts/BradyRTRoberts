@@ -42,12 +42,12 @@ sections:
       title: <br>
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: admin
-  - block: skills
-    content:
-      title: Skills
-      username: admin
-    design:
-      columns: '1'
+  # - block: skills
+  #   content:
+  #     title: Skills
+  #     username: admin
+  #   design:
+  #     columns: '1'
   - block: experience
     id: experience
     content:
@@ -69,13 +69,11 @@ sections:
           date_start: '2023-09-01'
           date_end: ''
           description: |2-
-              Responsibilities include:
-
-              * Analysing
-              * Modelling
-              * Deploying
-              * Exploring what makes symbols and logos highly memorable.
-        - title: Course Instructor
+              * Pioneered a novel research area connecting visual design and memory, with high applicability to brand logos and advertising
+              * Leveraged big data analytics and AI models to reveal more effective, data-driven visual designs based on shape, meaning, and peoples’ real-time attention
+              * Established a statistical approach that can detect changes in peoples’ attention in real time, allowing for the strategic presentation of memorable pictures depending on when they are most effective
+              * Led an international study to understand whether very poor imagination ability leads to worse memory performance
+        - title: Course Instructor and Teaching Assistant
           company: University of Waterloo
           company_url: ''
           company_logo: uWaterloo
@@ -83,12 +81,8 @@ sections:
           date_start: '2022-01-01'
           date_end: '2022-12-31'
           description: |2-
-              Responsibilities include:
-
-              * Analysing
-              * Modelling
-              * Deploying
-              * Taught Brain Physiology, as well as Research Methods in Memory.
+              * Directed 2 courses on brain and behaviour as well as memory research, yielding +95% passing rates, 5/5 scores from students’ evaluations of the learning environment, and favourable reviews of my presentation skills from expert observers
+              * Elevated 15 university courses by implementing evidence-based teaching methods, including 6 business courses focused on entrepreneurship, practical business skills, and human resources management; received 94% positive student reviews
         - title: Database Coordinator
           company: Waterloo Research in Aging Participants
           company_url: ''
@@ -97,58 +91,37 @@ sections:
           date_start: '2017-09-01'
           date_end: '2023-12-31'
           description: |2-
-              Responsibilities include:
+              * Managed a database of 400+ older adult volunteer participants from the local community; consulted 1-on-1 with university researchers to understand their data collection needs, cultivating 70+ scientific projects across 20+ research domains
+              * Streamlined participant recruitment by conducting stakeholder interviews with volunteers to understand their experiences and desires; introduced an online recruitment process to improve efficiency, reducing intake from 2 hours to < 30 minutes
 
-              * Analysing
-              * Modelling
-              * Deploying
-              * Managed a database of 400+ older adult participants.
     design:
       view: compact
       columns: '2'
-  - block: accomplishments
-    content:
-      # Note: `&shy;` is used to add a 'soft' hyphen in a long heading.
-      title: 'Accomplish&shy;ments'
-      subtitle:
-      # Date format: https://docs.hugoblox.com/customization/#date-format
-      date_format: Jan 2006
-      # Accomplishments.
-      #   Add/remove as many `item` blocks below as you like.
-      #   `title`, `organization`, and `date_start` are the required parameters.
-      #   Leave other parameters empty if not required.
-      #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
-      items:
-        - certificate_url: https://www.coursera.org
-          date_end: ''
-          date_start: '2021-01-25'
-          description: ''
-          icon: coursera
-          organization: Coursera
-          organization_url: https://www.coursera.org
-          title: Neural Networks and Deep Learning
-          url: ''
-        - certificate_url: https://www.edx.org
-          date_end: ''
-          date_start: '2021-01-01'
-          description: Formulated informed blockchain models, hypotheses, and use cases.
-          icon: edx
-          organization: edX
-          organization_url: https://www.edx.org
-          title: Blockchain Fundamentals
-          url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
-        - certificate_url: https://www.datacamp.com
-          date_end: '2020-12-21'
-          date_start: '2020-07-01'
-          description: ''
-          icon: datacamp
-          organization: DataCamp
-          organization_url: https://www.datacamp.com
-          title: 'Object-Oriented Programming in R'
-          url: ''
-    design:
-      view: compact
-      columns: '2'
+  # - block: accomplishments
+  #   content:
+  #     # Note: `&shy;` is used to add a 'soft' hyphen in a long heading.
+  #     title: 'Funding'
+  #     id: funding
+  #     subtitle:
+  #     # Date format: https://docs.hugoblox.com/customization/#date-format
+  #     date_format: Jan 2006
+  #     # Accomplishments.
+  #     #   Add/remove as many `item` blocks below as you like.
+  #     #   `title`, `organization`, and `date_start` are the required parameters.
+  #     #   Leave other parameters empty if not required.
+  #     #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
+  #     items:
+  #       - date_end: ''
+  #         date_start: '2023-09-01'
+  #         description: '$170k award'
+  #         icon: coursera
+  #         organization: Natural Sciences and Engineering Research Council of Canada (NSERC)
+  #         organization_url: https://www.nserc-crsng.gc.ca/students-etudiants/pd-np/pdf-bp_eng.asp
+  #         title: Postdoctoral Fellowship Award
+  #         url: ''
+  #   design:
+  #     view: compact
+  #     columns: '2'
   # - block: collection
   #   id: posts
   #   content:
@@ -227,7 +200,7 @@ sections:
   - block: collection
     id: publications
     content:
-      title: Recent Publications
+      title: Publications
       text: |-
         {{% callout note %}}
         [Click here to filter publications](./publication/).
@@ -248,7 +221,7 @@ sections:
           - event
     design:
       columns: '2'
-      view: compact
+
 
   # - block: tag_cloud
   #   content:

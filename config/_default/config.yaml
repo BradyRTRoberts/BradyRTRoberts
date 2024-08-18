@@ -1,0 +1,13 @@
+﻿baseURL: "http://example.com/"
+languageCode: "en-us"
+title: "My Academic Website"
+theme: "your-theme-name"
+
+menu:
+  main:
+    - name: "Home"
+      url: "/"
+      weight: 1
+    - name: "Hobbies"
+      url: "/hobbies/"
+      weight: 10

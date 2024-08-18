@@ -1,0 +1,25 @@
+﻿.hobbies-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.hobby-item {
+  width: calc(50% - 20px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  padding: 15px;
+  background-color: #fff;
+  border-radius: 8px;
+}
+
+.hobby-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.hobby-item p {
+  margin-top: 10px;
+  font-size: 16px;
+}
