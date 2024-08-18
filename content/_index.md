@@ -315,3 +315,5 @@ sections:
   </div>
   <!-- Add more hobby items as needed -->
 </div>
+
+layout: hobbies
